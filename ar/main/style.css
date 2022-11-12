@@ -5,12 +5,17 @@ body {
 }
 
 .wrap {
-    display: none;
+    display: flex;
     padding-top: 20px;
     z-index: 2;
     position: fixed;
     top: 0px;
     left: 20px;
+}
+
+.heart {
+    height: 20px;
+    margin: 0;
 }
 
 .btn {
@@ -19,9 +24,7 @@ body {
     background: rgb(255, 83, 83);
     border-radius: 45px;
     border: 2px solid rgb(214, 214, 214);
-    color: white;
-    margin: 0 auto;
-    overflow: hidden;
+    height: 20px;
 
 	transform: scale(1);
 	animation: pulse 2s infinite;
